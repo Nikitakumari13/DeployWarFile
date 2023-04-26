@@ -1,8 +1,7 @@
 node{
     stage('SCM Checkout'){
    git 'https://github.com/Nikitakumari13/DeployWarFile'
-
-  }
+}
 
   stage('compile-package'){
 
