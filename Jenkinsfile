@@ -2,8 +2,7 @@ node{
     stage('SCM Checkout'){
    git 'https://github.com/Nikitakumari13/DeployWarFile'
 }
-
-  stage('compile-package'){
+    stage('compile-package'){
 
     // Get maven home path
 
