@@ -1,13 +1,9 @@
-[5:08 PM] Mo Nayeem Bhati
-
-
 
 
 node{
 
   stage('SCM Checkout'){
-
-    git 'https://github.com/Nayeem123/Jenkinsfile.git'
+   git 'https://github.com/Nikitakumari13/DeployWarFile'
 
   }
 
