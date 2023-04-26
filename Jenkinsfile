@@ -1,8 +1,5 @@
-
-
 node{
-
-  stage('SCM Checkout'){
+    stage('SCM Checkout'){
    git 'https://github.com/Nikitakumari13/DeployWarFile'
 
   }
